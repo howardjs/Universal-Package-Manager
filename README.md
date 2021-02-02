@@ -1,4 +1,4 @@
-![UPM Logo](https://github.com/howardjs/Unified-Package-Manager/blob/main/upm.png)
+![UPM Logo](https://github.com/howardjs/Unified-Package-Manager/blob/main/upm_small.png)
 
 # The Universal Package Manager (UPM)
 
