@@ -1,11 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
+
+# pylint: disable=import-error
 
 # First-party imports
-from universal_package_manager import gui
+from gui import GtkWindow
 
 # Third-party imports
 import os
 import sys
 
 # Initialize GPM
-gui.GtkWindow()
+GtkWindow()

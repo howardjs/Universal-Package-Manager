@@ -18,7 +18,7 @@ class GtkWindow(Gtk.Window):
 
     def __init__(self):
         # Create Gtk.Window instance
-        Gtk.Window.__init__(self, title="The Unified Package Manager")
+        Gtk.Window.__init__(self, title="The Universal Package Manager")
         self.set_default_size(800, 600)
 
         # Create package manager selector widgets
