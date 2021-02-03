@@ -4,7 +4,25 @@
 
 ## Overview
 
-A unified graphical interface for Linux package managers such as apt, pacman, zypper, etc.
+The Universal Package Manager is a utility that provides simplified use of multiple widely-used package managers on Linux-based systems.
+
+## Package manager support
+
+The Universal Package Manager will support the following package managers:
+
+
+  - apt (Debian-based operating systems)
+
+  - flatpak (Multiple Linux-based operating systems)
+
+  - pacman (Arch-based operating systems)
+
+  - snap (Multiple Linux-based operating systems)
+
+  - yum (Fedora-based operating systems)
+
+  - zypper (openSUSE-based operating systems)
+
 
 ## Installation
 
