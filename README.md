@@ -4,7 +4,9 @@
 
 ## Overview
 
-The Universal Package Manager is a utility that provides simplified use of multiple widely-used package managers on Linux-based systems.
+The Universal Package Manager is a utility that provides simplified use of multiple widely-used package managers on Linux-based systems. This software was written for newcomers to the Linux package management utilities who don't want to get involved with the command-line interface but has become an all-in-one tool for Linux package management across many services and distributions.
+
+The software is written in Python using the GTK widget toolkit in conjunction with the PyGObject package for Python graphical applications. This project is open-source and uses the [GNU General Public License v3.0](https://github.com/howardjs/Universal-Package-Manager/blob/main/LICENSE).
 
 ## Package manager support
 
@@ -25,6 +27,12 @@ The Universal Package Manager will support the following package managers:
 
 
 ## Installation
+
+### Prerequisites
+
+  - A Linux-based operating system
+
+  - Python 3 or above
 
 ### Install as a Python Package
 
