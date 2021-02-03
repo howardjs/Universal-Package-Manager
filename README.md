@@ -6,24 +6,24 @@
 
 The Universal Package Manager is a utility that provides simplified use of multiple widely-used package managers on Linux-based systems. This software was written for newcomers to the Linux package management utilities who don't want to get involved with the command-line interface but has become an all-in-one tool for Linux package management across many services and distributions.
 
-The software is written in Python using the GTK widget toolkit in conjunction with the PyGObject package for Python graphical applications. This project is open-source and uses the [GNU General Public License v3.0](https://github.com/howardjs/Universal-Package-Manager/blob/main/LICENSE).
+The software is written in [Python](https://www.python.org/) using the [GTK](https://gtk.org/) widget toolkit in conjunction with the [PyGObject](https://pygobject.readthedocs.io/) package for Python graphical applications. This project is open-source and uses the [GNU General Public License v3.0](https://github.com/howardjs/Universal-Package-Manager/blob/main/LICENSE).
 
 ## Package manager support
 
 The Universal Package Manager will support the following package managers:
 
 
-  - apt (Debian-based operating systems)
+  - [apt](https://en.wikipedia.org/wiki/APT_(software)) (Debian-based operating systems)
 
-  - flatpak (Multiple Linux-based operating systems)
+  - [flatpak](https://en.wikipedia.org/wiki/Flatpak) (Multiple Linux-based operating systems)
 
-  - pacman (Arch-based operating systems)
+  - [pacman](https://en.wikipedia.org/wiki/Arch_Linux#Pacman) (Arch-based operating systems)
 
-  - snap (Multiple Linux-based operating systems)
+  - [snap](https://en.wikipedia.org/wiki/Snap_(package_manager)) (Multiple Linux-based operating systems)
 
-  - yum (Fedora-based operating systems)
+  - [yum](https://en.wikipedia.org/wiki/Yum_(software)) (Fedora-based operating systems)
 
-  - zypper (openSUSE-based operating systems)
+  - [zypper](https://en.wikipedia.org/wiki/ZYpp) (openSUSE-based operating systems)
 
 
 ## Installation
