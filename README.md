@@ -65,6 +65,10 @@ python3 setup.py install
 
 Pull requests are encouraged. For major changes with the project please open an issue about what you would like to change. Thank you for contributing to the UPM project.
 
+## Community
+
+You can interact with the UPM community by joining our official Discord server! Join [here](https://discord.gg/6s3Cgk9EGR)!
+
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://github.com/howardjs/Universal-Package-Manager/blob/main/LICENSE). This project is available for commercial use, modification, distribution, patent use, and private use.
