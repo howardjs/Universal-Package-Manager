@@ -67,7 +67,9 @@ Pull requests are encouraged. For major changes with the project please open an 
 
 ## Community
 
-You can interact with the UPM community by joining our official Discord server! Join [here](https://discord.gg/6s3Cgk9EGR)!
+You can interact with the UPM community by joining our official Discord server!
+
+[The UPM Discord Server](https://discord.gg/6s3Cgk9EGR)
 
 ## License
 
