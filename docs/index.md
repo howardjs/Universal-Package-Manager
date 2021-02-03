@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+## Overview
 
-You can use the [editor on GitHub](https://github.com/howardjs/Universal-Package-Manager/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+The Universal Package Manager is a utility that provides simplified use of multiple widely-used package managers on Linux-based systems. This software was written for newcomers to the Linux package management utilities who don't want to get involved with the command-line interface but has become an all-in-one tool for Linux package management across many services and distributions.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The software is written in [Python](https://www.python.org/) using the [GTK](https://gtk.org/) widget toolkit in conjunction with the [PyGObject](https://pygobject.readthedocs.io/) package for Python graphical applications. This project is open-source and uses the [GNU General Public License v3.0](https://github.com/howardjs/Universal-Package-Manager/blob/main/LICENSE).
 
-### Markdown
+## Package manager support
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The Universal Package Manager will support the following package managers:
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+  - [apt](https://en.wikipedia.org/wiki/APT_(software)) (Debian-based operating systems)
 
-- Bulleted
-- List
+  - [flatpak](https://en.wikipedia.org/wiki/Flatpak) (Multiple Linux-based operating systems)
 
-1. Numbered
-2. List
+  - [pacman](https://en.wikipedia.org/wiki/Arch_Linux#Pacman) (Arch-based operating systems)
 
-**Bold** and _Italic_ and `Code` text
+  - [snap](https://en.wikipedia.org/wiki/Snap_(package_manager)) (Multiple Linux-based operating systems)
 
-[Link](url) and ![Image](src)
+  - [yum](https://en.wikipedia.org/wiki/Yum_(software)) (Fedora-based operating systems)
+
+  - [zypper](https://en.wikipedia.org/wiki/ZYpp) (openSUSE-based operating systems)
+
+
+## Installation
+
+### Prerequisites
+
+  - A [Linux](https://en.wikipedia.org/wiki/Linux)-based operating system
+
+  - [Python 3.7](https://www.python.org/downloads/) or above
+
+### Install as a Python Package
+
+```
+pip install universal-package-manager
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Install from the source repository
 
-### Jekyll Themes
+Clone the GitHub repository:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/howardjs/Universal-Package-Manager/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+git clone https://github.com/howardjs/Universal-Package-Manager.git
+```
 
-### Support or Contact
+After you clone the repository, install all of the requirements:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```
+pip install -r requirements.txt
+```
+
+Finally, install the package:
+
+```
+python3 setup.py install
+```
+
+
+## Contributing
+
+Pull requests are encouraged. For major changes with the project please open an issue about what you would like to change. Thank you for contributing to the UPM project.
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](https://github.com/howardjs/Universal-Package-Manager/blob/main/LICENSE). This project is available for commercial use, modification, distribution, patent use, and private use.
