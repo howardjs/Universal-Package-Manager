@@ -30,9 +30,9 @@ The Universal Package Manager will support the following package managers:
 
 ### Prerequisites
 
-  - A Linux-based operating system
+  - A [Linux](https://en.wikipedia.org/wiki/Linux)-based operating system
 
-  - Python 3 or above
+  - [Python 3.7](https://www.python.org/downloads/) or above
 
 ### Install as a Python Package
 
