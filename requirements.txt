@@ -9,8 +9,6 @@ cupshelpers==1.0
 dbus-python==1.2.16
 distro==1.5.0
 distro-info==1.0
-docutils==0.16
-httplib2==0.18.1
 idna==2.10
 isort==5.7.0
 jeepney==0.6.0
