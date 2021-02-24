@@ -55,7 +55,7 @@ pip install universal-package-manager
 
 - Download the `.deb` file from the [latest release](https://github.com/howardjs/Universal-Package-Manager/releases/latest).
 - Run `sudo dpkg -i upm-latest.deb` in a terminal.
-You can now run UPM by your application launcher or by typing `upm` in a terminal.
+- You can now run UPM by your application launcher or by typing `upm` in a terminal.
 
 #### Other operating systems
 
