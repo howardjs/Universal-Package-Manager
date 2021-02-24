@@ -3,7 +3,7 @@ import gi
 import os
 
 # Initialize GTK
-gi.require_version("Gtk", "4.0")
+gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
 # Arrays
@@ -17,5 +17,7 @@ package_managers = [
 ]
 
 def main():
-    print "To be finished"
+    print("To be finished")
     # To be finished
+
+main()

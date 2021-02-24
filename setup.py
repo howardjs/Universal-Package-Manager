@@ -6,14 +6,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="universal-package-manager",
-    version="0.0.3",
+    version="0.0.4",
     author="Garrett Howard",
     author_email="garrett@mersh.com",
     description="A unified graphical interface for Linux package managers such as apt, pacman, zypper, etc.",
     url="https://github.com/howardjs/Universal-Package-Manager",
     packages=['universal_package_manager'],
     entry_points = {
-        'console_scripts' : ['upm = upm:main']
+        'console_scripts' : ['upm=upm:main']
     },
     data_files = [
         ('share/applications', ['upm.desktop'])
