@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=0.0.3
+Type=Application
+Name=UPM
+Comment=A unified package manager.
+# myscript should wait for user input at the end, else the terminal
+# window will disappear immediately.
+Exec=upm
+Icon=/usr/share/icons/gnome/48x48/apps/file-manager.png
+Categories=Utility;
+# desktop should run this in a terminal application
+Terminal=true
+StartupNotify=true
+StartupWMClass=upm
