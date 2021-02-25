@@ -2,6 +2,13 @@
 
 # The Universal Package Manager (UPM)
 
+[![Github All Releases](https://img.shields.io/github/downloads/howardjs/Universal-Package-Manager/total.svg)](https://github.com/xmrig/xmrig/releases)
+[![GitHub release](https://img.shields.io/github/release/howardjs/Universal-Package-Manager/all.svg)](https://github.com/howardjs/Universal-Package-Manager/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/howardjs/Universal-Package-Manager.svg)](https://github.com/howardjs/Universal-Package-Manager/releases)
+[![GitHub license](https://img.shields.io/github/license/howardjs/Universal-Package-Manager.svg)](https://github.com/howardjs/Universal-Package-Manager/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/howardjs/Universal-Package-Manager.svg)](https://github.com/howardjs/Universal-Package-Manager/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/howardjs/Universal-Package-Manager.svg)](https://github.com/howardjs/Universal-Package-Manager/network)
+
 ## Overview
 
 The Universal Package Manager is a utility that provides simplified use of multiple widely-used package managers on Linux-based systems. This software was written for newcomers to the Linux package management utilities who don't want to get involved with the command-line interface but has become an all-in-one tool for Linux package management across many services and distributions.
@@ -15,13 +22,15 @@ The Universal Package Manager will support the following package managers:
 
   - [apt](https://en.wikipedia.org/wiki/APT_(software)) (Debian-based operating systems)
 
+  - [dnf](https://en.wikipedia.org/wiki/DNF_(software)) (Fedora-based operating systems)
+
+  - [eopkg](https://github.com/solus-project/package-management) (Solus, a Debian-based operating system)
+
   - [flatpak](https://en.wikipedia.org/wiki/Flatpak) (Multiple Linux-based operating systems)
 
   - [pacman](https://en.wikipedia.org/wiki/Arch_Linux#Pacman) (Arch-based operating systems)
 
   - [snap](https://en.wikipedia.org/wiki/Snap_(package_manager)) (Multiple Linux-based operating systems)
-
-  - [yum](https://en.wikipedia.org/wiki/Yum_(software)) (Fedora-based operating systems)
 
   - [zypper](https://en.wikipedia.org/wiki/ZYpp) (openSUSE-based operating systems)
 
@@ -32,15 +41,29 @@ The Universal Package Manager will support the following package managers:
 
   - A [Linux](https://en.wikipedia.org/wiki/Linux)-based operating system
 
-  - [Python 3.7](https://www.python.org/downloads/) or above
+  - [Python 3.6](https://www.python.org/downloads/) or above
 
-### Install as a Python Package
+### Install as a Python Package (recommended)
 
 ```
 pip install universal-package-manager
 ```
 
-### Install from the source repository
+### Download and install from binary releases
+
+#### Debian-based operating systems
+
+- Download the `.deb` file from the [latest release](https://github.com/howardjs/Universal-Package-Manager/releases/latest).
+- Run `sudo dpkg -i upm-latest.deb` in a terminal.
+- You can now run UPM by your application launcher or by typing `upm` in a terminal.
+
+#### Other operating systems
+
+- Download the source code from the [latest release](https://github.com/howardjs/Universal-Package-Manager/releases/latest) and unzip the file.
+- Download and install the dependencies with `pip install -r requirements.txt`
+- Install the package with `python3 setup.py install`
+
+### Build and install from the source repository
 
 Clone the GitHub repository:
 
@@ -59,7 +82,6 @@ Finally, install the package:
 ```
 python3 setup.py install
 ```
-
 
 ## Contributing
 
