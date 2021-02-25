@@ -1,10 +1,7 @@
 # Third-party imports
-import gi
-import os
-
-# Initialize GTK
-gi.require_version("Gtk", "3.0")
-from gi.repository import Gtk
+import sys
+from PySide6 import Qt
+from PySide6 import QtWidgets
 
 # Arrays
 package_managers = [
@@ -17,7 +14,18 @@ package_managers = [
 ]
 
 def main():
-    print("To be finished")
-    # To be finished
+    # Define QApplication
+    app = QtWidgets.QApplication(sys.argv)
+    
+    # Define QMainWindow
+    window = QtWidgets.QMainWindow()
+    window.setFixedSize(800, 600)
 
+    # Show widgets
+    window.show()
+
+    # Bind exit call
+    sys.exit(app.exec_())
+
+# Run main
 main()

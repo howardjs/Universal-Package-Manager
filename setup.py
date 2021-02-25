@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="universal-package-manager",
-    version="0.0.4",
+    version="0.0.5",
     author="Garrett Howard",
     author_email="garrett@mersh.com",
     description="A unified graphical interface for Linux package managers such as apt, pacman, zypper, etc.",
