@@ -2,7 +2,7 @@
 
 # The Universal Package Manager (UPM)
 
-[![Github All Releases](https://img.shields.io/github/downloads/howardjs/Universal-Package-Manager/total.svg)](https://github.com/xmrig/xmrig/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/howardjs/Universal-Package-Manager/total.svg)](https://github.com/howardjs/Universal-Package-Manager/releases)
 [![GitHub release](https://img.shields.io/github/release/howardjs/Universal-Package-Manager/all.svg)](https://github.com/howardjs/Universal-Package-Manager/releases)
 [![GitHub Release Date](https://img.shields.io/github/release-date/howardjs/Universal-Package-Manager.svg)](https://github.com/howardjs/Universal-Package-Manager/releases)
 [![GitHub license](https://img.shields.io/github/license/howardjs/Universal-Package-Manager.svg)](https://github.com/howardjs/Universal-Package-Manager/blob/master/LICENSE)
